@@ -67,7 +67,7 @@ function App() {
           onChange={e => handleChange(e,i)}
         />
         {inputList.length !== 1 && <input type="button" value="remove" className="mr10" onClick={() => remove(i)}/>}
-        {inputList.length -1 === i && <input type="button" value="add" onClick={add} />}
+        {inputList.length -1 === i && <input type="button" value="add" style={{cursor:"pointer"}} onClick={add} />}
       </div>)
      })}
       <pre>
