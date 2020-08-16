@@ -36,8 +36,8 @@ function App() {
   const remove = (index) => {
     console.log(index,"---")
     const list = [...inputList];
-    //where index means for ex index = 0 ? remove that index(0) element and returns final array in list
-    // 1 means remove 1 element
+    //where index means for ex index = 0 then index will be 0 
+    // 1 means remove 1 element in that particlur index
     list.splice(index,1)
     setInputList(list)
   }
