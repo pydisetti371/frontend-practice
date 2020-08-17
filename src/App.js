@@ -17,7 +17,7 @@ function App() {
     // console.log(list,"list")
     // console.log(list[index][name],"--------------")
     list[index][name] = value;
-    console.log(list)
+    // console.log(list)
     setInputList(list)
     // setInputList({
     //   ...inputList,
@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="App">
      {inputList.length && inputList.map((item,i) => {
-       console.log(i,"iiiiiiiiii");
+      //  console.log(i,"iiiiiiiiii");
        
        return (
         <div key={i} className="box">
